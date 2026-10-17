@@ -16,6 +16,7 @@ Faculty of Computers and Information Sciences, Mansoura University — Fall 2026
 | **[Lecture 01 — Why This Course, and Why Python](lectures/01-why-this-course/lecture.md)** | The opening lecture, in full. |
 | **[Lecture 02 — Complexity, and the Array](lectures/02-complexity-and-arrays/lecture.md)** | Big-O, measuring, the course `Array`, and the no-`list` storage rule. |
 | **[Lecture 03 — Recursion](lectures/03-recursion/lecture.md)** | The call stack, recurrences, recursion trees, and branching recursion. |
+| **[Recursion Lab](https://helghareeb.github.io/DSA27/lectures/03-recursion/recursion-lab.html)** | Interactive: step through recursion, watch the call stack and the recursion tree, answer *what happens next?*, and see nine ways recursion goes wrong. Offline copy: [`recursion-lab.html`](lectures/03-recursion/recursion-lab.html). |
 | **[Lecture 04 — Dynamic Arrays](lectures/04-dynamic-arrays/lecture.md)** | Growing by copying, why doubling works, and amortised analysis. |
 | **[Lecture 05 — Linked Lists](lectures/05-linked-lists/lecture.md)** | Nodes and references, the traversal loop, and the mirror image of the array. |
 | **[Lecture 06 — Stacks](lectures/06-stacks/lecture.md)** | LIFO, two honest implementations, brackets, postfix and shunting-yard. |
@@ -33,7 +34,9 @@ Faculty of Computers and Information Sciences, Mansoura University — Fall 2026
 | **[Worked solutions](../solutions/)** | Every exercise, lab and practice problem solved — read them only after you have tried. |
 | **[Lab manual — weeks 1–15](labs/)** | Python for this course in weeks 1–3, then one lab per week building that week's structure in `dsa/`. Everything you need is in the repository. |
 | **[Your program's regulations](course/regulations/)** | The bylaws, and what they say about this course. |
-| **[Links](links.md)** | WhatsApp channel, YouTube, repository. |
+| **[Online quizzes](https://helghareeb.github.io/en/quizzes/)** | The weekly multiple-choice questions as interactive quizzes on the course website. |
+| [Recorded lectures, 2019/2020](https://helghareeb.github.io/en/videos/dsa20/) | Earlier recordings of this course, to watch or download. |
+| **[Links](links.md)** | WhatsApp channel, YouTube, course website, repository. |
 
 ## Printable PDFs
 

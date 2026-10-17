@@ -16,6 +16,12 @@ __pycache__/
 .pytest_cache/
 .ruff_cache/
 .mypy_cache/
+.coverage
+htmlcov/
+
+# Local secrets and editor settings
+.env
+.idea/
 
 # manim render output
 media/

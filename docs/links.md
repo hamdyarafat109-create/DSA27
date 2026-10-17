@@ -24,6 +24,14 @@ Some lectures are recorded and uploaded. **Not all of them** — the channel is 
 supplement to attending, not a replacement for it. Remember the 75% attendance
 rule.
 
+### Course website — quizzes and recorded lectures
+
+**<https://helghareeb.github.io/en/quizzes/>** — the weekly multiple-choice questions as interactive quizzes, each
+answer explained. For practice only: your answers stay on your device.
+
+**<https://helghareeb.github.io/en/videos/dsa20/>** — recordings from the 2019/2020 run of this course (Python, OOP,
+ADTs, arrays, sets, maps, complexity), to watch online or download.
+
 ### GitHub — code, exercises, notes
 
 **<https://github.com/helghareeb/DSA27>**

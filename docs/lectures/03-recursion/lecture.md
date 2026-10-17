@@ -16,7 +16,8 @@ lang: en
 > depth-first search, and the parser in the final week.
 >
 > Slides: `DSA27-L03-slides.pdf` · Code: `dsa/recursion.py` ·
-> Tests: `tests/test_recursion.py` · Lab: Lab 03, Part 10
+> Tests: `tests/test_recursion.py` · Lab: Lab 03, Part 10 ·
+> Interactive demo: [Recursion Lab](https://helghareeb.github.io/DSA27/lectures/03-recursion/recursion-lab.html)
 
 :::
 
@@ -59,7 +60,7 @@ nothing.
 
 ## A definition that uses itself
 
-$$n! = \begin{cases} 1 & \text{if } n = 0 \\ n \times (n-1)! & \text{if } n > 0 \end{cases}$$
+$$n! = \begin{cases} 1 & \text{if } n = 0 \cr n \times (n-1)! & \text{if } n > 0 \end{cases}$$
 
 ```python
 def factorial(n):
@@ -178,6 +179,47 @@ function call in every program you write; recursion only makes it visible.
 line in VS Code, press F5 and step with F11. The *Call Stack* panel shows one
 `factorial` frame per call, each with its own `n`. Lab 03, Part 10.4 walks you
 through it.
+
+:::
+
+## Watch it run: the Recursion Lab
+
+[**Recursion Lab**](https://helghareeb.github.io/DSA27/lectures/03-recursion/recursion-lab.html) — open it in any browser.
+
+- The code, the **call stack** and the **recursion tree**, one step at a time
+- **Step over** a call: trust the recursion
+- *What happens next?* — answer before you step
+- Nine scenarios that **go wrong**: no base case, no progress, a missing
+  `return`, a wrong base value, hidden $O(n^2)$…
+
+::: {.handout-only}
+
+The Recursion Lab is the demo used in the lecture. It runs every example in
+this handout, plus nine broken versions, and shows each step: the line that
+runs, every frame on the stack with its own variables, and the tree of calls
+growing. Use it to check your hand traces.
+
+- **Online:** <https://helghareeb.github.io/DSA27/lectures/03-recursion/recursion-lab.html>
+- **Offline:** open `docs/lectures/03-recursion/recursion-lab.html` from your
+  copy of the repository. It is a single file and needs no installation.
+
+How to use it:
+
+- Pick a scenario at the top. Change the input in the `>>>` line and press
+  **Run**.
+- **Step** (→) moves one step and **Back** (←) undoes it. **Step over** (O)
+  runs a whole call in one step: *Trust the recursion*, made visible.
+  **Step out** (U) finishes the current call. Click any node of the tree to jump
+  to the moment that call started.
+- At the key moments the demo stops with a question. Answer it (A–D) **before**
+  you look; that is where the learning happens.
+
+What to try, in order: `factorial` (winding and unwinding), `fib` against
+`fib_memo` (watch the calls counter), and then every scenario under *Goes
+wrong*. For each broken one, find the bug in the code **before** you step.
+
+Two scenarios, fast `power` and Hanoi, show code that solves an exercise in
+`dsa/recursion.py`. Write your own version first.
 
 :::
 
@@ -491,6 +533,33 @@ the code is yours.
 :::
 
 # Branching Recursion
+
+## Towers of Hanoi: the puzzle
+
+Three pegs, n disks of different sizes, all stacked on the first peg, largest
+at the bottom. **Goal:** move the whole tower to another peg.
+
+- Move **one disk** at a time: the top disk of a peg
+- **Never** put a larger disk on a smaller one
+- The third peg is your **spare**
+
+![A wooden Tower of Hanoi with 8 disks (photo: Evanherk, Wikimedia Commons, CC BY-SA 3.0)](figures/tower-of-hanoi.jpeg){width=62%}
+
+<p align="center"><img src="figures/hanoi-4.gif" alt="Animated solution of the Tower of Hanoi with 4 disks: 15 moves" width="480"></p>
+
+::: {.handout-only}
+
+**Watch the solution.** The animation solves the puzzle for 4 disks in 15 moves
+([open the animation](https://helghareeb.github.io/DSA27/lectures/03-recursion/figures/hanoi-4.gif);
+André Karwath, Wikimedia Commons, CC BY-SA 2.5). Watch the largest disk: it
+moves exactly **once**, in the middle (move 8). Before that move, the 3 smaller
+disks have all gone to the spare peg; after it, they come back on top of it.
+That is the whole algorithm on the next slide.
+
+The puzzle was published by the French mathematician Édouard Lucas in 1883. Try
+n = 3 by hand before you read on: can you do it in 7 moves?
+
+:::
 
 ## Towers of Hanoi
 

@@ -30,7 +30,7 @@ Dynamic programming is included as enrichment.
 | [Coverage matrix](docs/course/02-coverage.md) | Every topic the لائحة declares → module → test |
 | [Lecture 01 — Why This Course, and Why Python](docs/lectures/01-why-this-course/lecture.md) | [handout PDF](docs/pdf/DSA27-L01-handout.pdf) · [slides PDF](docs/pdf/DSA27-L01-slides.pdf) |
 | [Lecture 02 — Complexity, and the Array](docs/lectures/02-complexity-and-arrays/lecture.md) | [handout PDF](docs/pdf/DSA27-L02-handout.pdf) · [slides PDF](docs/pdf/DSA27-L02-slides.pdf) |
-| [Lecture 03 — Recursion](docs/lectures/03-recursion/lecture.md) | [handout PDF](docs/pdf/DSA27-L03-handout.pdf) · [slides PDF](docs/pdf/DSA27-L03-slides.pdf) |
+| [Lecture 03 — Recursion](docs/lectures/03-recursion/lecture.md) | [handout PDF](docs/pdf/DSA27-L03-handout.pdf) · [slides PDF](docs/pdf/DSA27-L03-slides.pdf) · [interactive demo](https://helghareeb.github.io/DSA27/lectures/03-recursion/recursion-lab.html) |
 | [Lecture 04 — Dynamic Arrays](docs/lectures/04-dynamic-arrays/lecture.md) | [handout PDF](docs/pdf/DSA27-L04-handout.pdf) · [slides PDF](docs/pdf/DSA27-L04-slides.pdf) |
 | [Lecture 05 — Linked Lists](docs/lectures/05-linked-lists/lecture.md) | [handout PDF](docs/pdf/DSA27-L05-handout.pdf) · [slides PDF](docs/pdf/DSA27-L05-slides.pdf) |
 | [Lecture 06 — Stacks](docs/lectures/06-stacks/lecture.md) | [handout PDF](docs/pdf/DSA27-L06-handout.pdf) · [slides PDF](docs/pdf/DSA27-L06-slides.pdf) |
@@ -45,13 +45,17 @@ Dynamic programming is included as enrichment.
 | [Lecture 15 — The Principles of Language Translation](docs/lectures/15-language-translation/lecture.md) | [handout PDF](docs/pdf/DSA27-L15-handout.pdf) · [slides PDF](docs/pdf/DSA27-L15-slides.pdf) |
 | **[The students' book](docs/pdf/DSA27-Book.pdf)** | All fifteen lectures and the question bank **with its answers**, in one PDF |
 | **[Question bank](docs/question-bank/)** | MCQ, essay, trace, complexity, proofs, bugs and code — with answers, and three mock exams |
+| **[Online quizzes](https://helghareeb.github.io/en/quizzes/)** | The multiple-choice part of the question bank as interactive quizzes, one per week: pick an answer and see at once whether it is right, with the explanation |
+| [Recorded lectures, 2019/2020](https://helghareeb.github.io/en/videos/dsa20/) | Earlier recordings of this course (Python, OOP, ADTs, arrays, sets, maps, complexity) to watch or download |
 | **[Worked solutions](solutions/)** | Every exercise solved — for **after** you have tried. `pytest --solutions` runs the tests on them |
 | **[Lab manual — weeks 1–15](docs/labs/)** ([PDF](docs/pdf/DSA27-Lab-Manual.pdf)) | Python: [Lab 01](docs/labs/lab01-python-basics.md) · [02](docs/labs/lab02-control-flow-functions.md) · [03](docs/labs/lab03-data-structures-classes.md) — then building the structures: [Lab 04](docs/labs/lab04-dynamic-arrays.md) · [05](docs/labs/lab05-linked-lists.md) · [06](docs/labs/lab06-stacks.md) · [07](docs/labs/lab07-queues.md) · [08](docs/labs/lab08-searching.md) · [09](docs/labs/lab09-sorting-basic.md) · [10](docs/labs/lab10-sorting-advanced.md) · [11](docs/labs/lab11-trees.md) · [12](docs/labs/lab12-heaps.md) · [13](docs/labs/lab13-hash-tables.md) · [14](docs/labs/lab14-graphs.md) · [15](docs/labs/lab15-language-translation.md) · [TA notes](docs/labs/ta-guide.md) |
 | [Official regulations](docs/course/regulations/) | The bylaws, and what they say about CS201 |
 | [Links](docs/links.md) | WhatsApp channel, YouTube |
 
 Announcements: **[WhatsApp channel](https://whatsapp.com/channel/0029Vb8XynEFy72KWbH6vS2V)** ·
-Video: **[youtube.com/@0xHGH](https://www.youtube.com/@0xHGH)**
+Video: **[youtube.com/@0xHGH](https://www.youtube.com/@0xHGH)** ·
+Quizzes: **[helghareeb.github.io/en/quizzes](https://helghareeb.github.io/en/quizzes/)** ·
+Recordings: **[helghareeb.github.io/en/videos](https://helghareeb.github.io/en/videos/)**
 
 ---
 

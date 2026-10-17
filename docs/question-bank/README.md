@@ -35,26 +35,30 @@ Every question is tagged **[what]** (recall), **[how]** (apply) or **[why]**
 
 ## The weeks
 
-| Week | Covers | Questions | Answers | Code |
-|---|---|---|---|---|
-| **1** | Lecture 01 (why this course) · Lab 01 (Python basics) | [questions](week01-questions.md) | [answers](week01-answers.md) | `practice/week01.py` |
-| **2** | Lecture 02 (complexity, the Array) · Lab 02 (control flow, functions, errors) | [questions](week02-questions.md) | [answers](week02-answers.md) | `practice/week02.py` |
-| **3** | Lecture 03 (recursion) · Lab 03 (data structures, classes) | [questions](week03-questions.md) | [answers](week03-answers.md) | `practice/week03.py` |
-| **4** | Lecture 04 (dynamic arrays, amortised analysis) | [questions](week04-questions.md) | [answers](week04-answers.md) | `practice/week04.py` |
-| **5** | Lecture 05 (linked lists) | [questions](week05-questions.md) | [answers](week05-answers.md) | `practice/week05.py` |
-| **6** | Lecture 06 (stacks) | [questions](week06-questions.md) | [answers](week06-answers.md) | `practice/week06.py` |
-| **7** | Lecture 07 (queues) | [questions](week07-questions.md) | [answers](week07-answers.md) | `practice/week07.py` |
-| **8** | Lecture 08 (searching) | [questions](week08-questions.md) | [answers](week08-answers.md) | `practice/week08.py` |
-| **9** | Lecture 09 (basic sorting) | [questions](week09-questions.md) | [answers](week09-answers.md) | `practice/week09.py` |
-| **10** | Lecture 10 (advanced sorting) | [questions](week10-questions.md) | [answers](week10-answers.md) | `practice/week10.py` |
-| **11** | Lecture 11 (trees) | [questions](week11-questions.md) | [answers](week11-answers.md) | `practice/week11.py` |
-| **12** | Lecture 12 (heaps and priority queues) | [questions](week12-questions.md) | [answers](week12-answers.md) | `practice/week12.py` |
-| **13** | Lecture 13 (hash tables) | [questions](week13-questions.md) | [answers](week13-answers.md) | `practice/week13.py` |
-| **14** | Lecture 14 (graphs and graph searches) | [questions](week14-questions.md) | [answers](week14-answers.md) | `practice/week14.py` |
-| **15** | Lecture 15 (the principles of language translation) | [questions](week15-questions.md) | [answers](week15-answers.md) | `practice/week15.py` |
-| — | **[Mock exam, weeks 1–3](mock-exam-weeks01-03.md)** — 30 marks MCQ + 30 marks written | | in the weekly answer files | |
-| — | **[Mock exam, weeks 1–7](mock-exam-weeks01-07.md)** — midterm practice, no overlap with the weeks 1–3 paper | | in the weekly answer files | |
-| — | **[Mock exam, weeks 1–15](mock-exam-weeks01-15.md)** — final practice, no overlap with the two earlier papers | | in the weekly answer files | |
+The multiple-choice part of every week is also an **[online quiz](https://helghareeb.github.io/en/quizzes/)**: pick an
+answer and you see at once whether it is right, with the explanation. Your answers stay on
+your device. The written parts are only here.
+
+| Week | Covers | Questions | Answers | Online quiz | Code |
+|---|---|---|---|---|---|
+| **1** | Lecture 01 (why this course) · Lab 01 (Python basics) | [questions](week01-questions.md) | [answers](week01-answers.md) | [quiz](https://helghareeb.github.io/en/quizzes/dsa27/week-01/) | `practice/week01.py` |
+| **2** | Lecture 02 (complexity, the Array) · Lab 02 (control flow, functions, errors) | [questions](week02-questions.md) | [answers](week02-answers.md) | [quiz](https://helghareeb.github.io/en/quizzes/dsa27/week-02/) | `practice/week02.py` |
+| **3** | Lecture 03 (recursion) · Lab 03 (data structures, classes) | [questions](week03-questions.md) | [answers](week03-answers.md) | [quiz](https://helghareeb.github.io/en/quizzes/dsa27/week-03/) | `practice/week03.py` |
+| **4** | Lecture 04 (dynamic arrays, amortised analysis) | [questions](week04-questions.md) | [answers](week04-answers.md) | [quiz](https://helghareeb.github.io/en/quizzes/dsa27/week-04/) | `practice/week04.py` |
+| **5** | Lecture 05 (linked lists) | [questions](week05-questions.md) | [answers](week05-answers.md) | [quiz](https://helghareeb.github.io/en/quizzes/dsa27/week-05/) | `practice/week05.py` |
+| **6** | Lecture 06 (stacks) | [questions](week06-questions.md) | [answers](week06-answers.md) | [quiz](https://helghareeb.github.io/en/quizzes/dsa27/week-06/) | `practice/week06.py` |
+| **7** | Lecture 07 (queues) | [questions](week07-questions.md) | [answers](week07-answers.md) | [quiz](https://helghareeb.github.io/en/quizzes/dsa27/week-07/) | `practice/week07.py` |
+| **8** | Lecture 08 (searching) | [questions](week08-questions.md) | [answers](week08-answers.md) | [quiz](https://helghareeb.github.io/en/quizzes/dsa27/week-08/) | `practice/week08.py` |
+| **9** | Lecture 09 (basic sorting) | [questions](week09-questions.md) | [answers](week09-answers.md) | [quiz](https://helghareeb.github.io/en/quizzes/dsa27/week-09/) | `practice/week09.py` |
+| **10** | Lecture 10 (advanced sorting) | [questions](week10-questions.md) | [answers](week10-answers.md) | [quiz](https://helghareeb.github.io/en/quizzes/dsa27/week-10/) | `practice/week10.py` |
+| **11** | Lecture 11 (trees) | [questions](week11-questions.md) | [answers](week11-answers.md) | [quiz](https://helghareeb.github.io/en/quizzes/dsa27/week-11/) | `practice/week11.py` |
+| **12** | Lecture 12 (heaps and priority queues) | [questions](week12-questions.md) | [answers](week12-answers.md) | [quiz](https://helghareeb.github.io/en/quizzes/dsa27/week-12/) | `practice/week12.py` |
+| **13** | Lecture 13 (hash tables) | [questions](week13-questions.md) | [answers](week13-answers.md) | [quiz](https://helghareeb.github.io/en/quizzes/dsa27/week-13/) | `practice/week13.py` |
+| **14** | Lecture 14 (graphs and graph searches) | [questions](week14-questions.md) | [answers](week14-answers.md) | [quiz](https://helghareeb.github.io/en/quizzes/dsa27/week-14/) | `practice/week14.py` |
+| **15** | Lecture 15 (the principles of language translation) | [questions](week15-questions.md) | [answers](week15-answers.md) | [quiz](https://helghareeb.github.io/en/quizzes/dsa27/week-15/) | `practice/week15.py` |
+| — | **[Mock exam, weeks 1–3](mock-exam-weeks01-03.md)** — 30 marks MCQ + 30 marks written | | in the weekly answer files | | |
+| — | **[Mock exam, weeks 1–7](mock-exam-weeks01-07.md)** — midterm practice, no overlap with the weeks 1–3 paper | | in the weekly answer files | | |
+| — | **[Mock exam, weeks 1–15](mock-exam-weeks01-15.md)** — final practice, no overlap with the two earlier papers | | in the weekly answer files | | |
 
 Printable PDFs of every file are in [`docs/pdf/`](../pdf/) (`DSA27-QB-...`).
 All fifteen weeks, questions and answers together, are also in the
